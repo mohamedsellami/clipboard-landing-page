@@ -1,0 +1,346 @@
+$strong-cyan: hsl(171, 66%, 44%);
+$light-blue: hsl(233, 100%, 69%);
+$dark-grayish-blue: hsl(210, 10%, 33%);
+$grayish-blue: hsl(201, 11%, 66%);
+
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+body {
+  box-sizing: inherit;
+  font-size: 18px;
+  font-family: "Bai Jamjuree", sans-serif;
+  background-image: url(../images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.container-fluid {
+  padding: 0;
+}
+h1,
+h2,
+h3 {
+  color: $dark-grayish-blue;
+  font-weight: 700;
+}
+.section1 {
+  width: 100%;
+  height: fit-content;
+  overflow-x: hidden;
+  .logo {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .main-paragraph {
+    width: 77%;
+    margin: auto;
+    color: $grayish-blue;
+    font-size: 4vw;
+    margin-top: 30px;
+  }
+}
+.buttons {
+  width: 190px;
+  margin: auto;
+  margin-top: 30px;
+  .ios {
+    width: 190px;
+    height: 50px;
+    margin-right: 10px;
+    background-color: $strong-cyan;
+    border-radius: 100px;
+    color: white;
+    box-shadow: 0px 5px 5px 2px rgba($color: #000000, $alpha: 0.1);
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    &:hover {
+      background-color: hsl(171, 50%, 56%);
+    }
+  }
+  .mac {
+    width: 190px;
+    height: 50px;
+    background-color: $light-blue;
+    border-radius: 100px;
+    color: white;
+    box-shadow: 0px 5px 5px 2px rgba($color: #000000, $alpha: 0.1);
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    &:hover {
+      background-color: hsl(233, 96%, 72%);
+    }
+  }
+}
+.section2 {
+  .keep-Track {
+    transition: all 1s ease;
+    visibility: visible;
+  }
+  h2 {
+    margin-top: 50px;
+    font-size: 25px;
+  }
+  .main-paragraph {
+    width: 77%;
+    font-size: 4vw;
+    margin: auto;
+    color: $grayish-blue;
+    margin-top: 30px;
+    margin-bottom: 100px;
+  }
+  img {
+    margin: auto;
+    width: 80%;
+    display: block;
+    transition: all 1s ease;
+    transform: translateX(0);
+    visibility: visible;
+    margin-bottom: 50px;
+  }
+  .content {
+    width: 300px;
+    margin: auto;
+    transition: all 1s ease;
+    transform: translateX(0);
+    visibility: visible;
+    h3 {
+      text-align: center;
+    }
+    p {
+      color: $grayish-blue;
+      margin-bottom: 60px;
+      text-align: center;
+    }
+  }
+}
+.hide {
+  visibility: hidden;
+}
+.section3 {
+  transition: all 1s ease;
+  transform: translateY(0);
+  visibility: visible;
+  h2 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  p {
+    width: 300px;
+    margin: auto;
+    color: $grayish-blue;
+    margin-bottom: 50px;
+  }
+  img {
+    display: block;
+    margin: auto;
+    width: 70%;
+  }
+}
+.section4 {
+  transition: all 1s ease;
+  transform: translateY(0);
+  visibility: visible;
+  h2 {
+    margin-top: 50px;
+  }
+  .main-paragraph {
+    margin-top: 20px;
+    color: $grayish-blue;
+    font-size: 17px;
+  }
+  .content {
+    margin: auto;
+    margin-top: 100px;
+    div {
+      margin: 0 20px;
+      margin-bottom: 100px;
+      img {
+        display: block;
+        margin: auto;
+      }
+      h3 {
+        margin-top: 50px;
+        margin-bottom: 30px;
+      }
+      p {
+        margin: 0;
+        color: $grayish-blue;
+        line-height: 30px;
+        font-size: 15px;
+      }
+    }
+    .blacklists h3 {
+      margin-top: 40px;
+    }
+  }
+}
+.section5 {
+  padding: 0 15%;
+  img {
+    margin: 30px auto;
+  }
+}
+.section6 {
+  h2 {
+    margin-top: 200px;
+    margin-bottom: 30px;
+  }
+  p {
+    width: 250px;
+    margin: auto;
+    color: $grayish-blue;
+    line-height: 30px;
+  }
+}
+footer {
+  background-color: hsla(180, 1%, 81%, 0.2);
+  margin-top: 100px;
+  padding: 30px 70px;
+  .row {
+    display: block;
+    text-align: center;
+  }
+  img {
+    width: 50px;
+    margin-bottom: 50px;
+  }
+  ul {
+    margin-top: -10px;
+    padding: 0;
+    li {
+      list-style: none;
+      padding-bottom: 20px;
+      a {
+        text-decoration: none;
+        color: $dark-grayish-blue;
+        font-weight: 700;
+      }
+    }
+  }
+  .social-media {
+    margin-top: 50px;
+    .fab {
+      color: $dark-grayish-blue;
+      font-size: 30px;
+      margin-left: 30px;
+      cursor: pointer;
+    }
+    .fa-facebook-square:hover {
+      color: #4267b2;
+    }
+    .fa-twitter:hover {
+      color: #1da1f2;
+    }
+    .fa-instagram:hover {
+      color: #f56040;
+    }
+  }
+}
+@media screen and(min-width: 700px) {
+  body {
+    background-image: url(../images/bg-header-desktop.png);
+  }
+  .section1 {
+    height: 600px;
+    .logo {
+      margin-top: 140px;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    .main-paragraph {
+      width: 620px;
+      font-size: 18px;
+      margin-top: 0;
+    }
+  }
+  .buttons {
+    width: fit-content;
+  }
+  .section2 {
+    .keep-Track {
+      transform: translateY(150px);
+      visibility: inherit;
+    }
+    h2 {
+      font-size: 30px;
+    }
+    .main-paragraph {
+      width: 690px;
+      font-size: 18px;
+    }
+    img {
+      position: relative;
+      right: 50px;
+      transform: translateX(-400px);
+      margin: 0;
+    }
+    .content {
+      width: 480px;
+      margin: 0;
+      margin-top: 70px;
+      padding-left: 100px;
+      transition: all 1s ease;
+      transform: translateX(400px);
+      h3 {
+        text-align: start;
+      }
+    }
+  }
+  .section3 {
+    transform: translateY(200px);
+    p {
+      width: 600px;
+    }
+  }
+  .section4 {
+    transform: translateY(200px);
+  }
+  .section5 {
+    padding-left: 110px;
+    padding-right: 70px;
+    margin-top: 200px;
+    img {
+      margin: 20px 10px;
+    }
+  }
+  .section6 {
+    p {
+      width: 700px;
+    }
+  }
+  footer {
+    .row {
+      display: flex;
+      text-align: start;
+    }
+    img {
+      margin-bottom: 0;
+    }
+    ul {
+      margin-top: 0;
+      padding: unset;
+      li {
+        padding-bottom: 0;
+      }
+    }
+    .install {
+      margin-top: -30px;
+    }
+    .social-media {
+      margin-top: 0;
+    }
+  }
+}
