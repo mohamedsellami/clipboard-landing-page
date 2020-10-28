@@ -97,12 +97,6 @@ h3 {
   background-color: #7383fc;
 }
 
-.section2 .keep-Track {
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
-  visibility: visible;
-}
-
 .section2 h2 {
   margin-top: 50px;
   font-size: 25px;
@@ -121,22 +115,12 @@ h3 {
   margin: auto;
   width: 80%;
   display: block;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
-  visibility: visible;
   margin-bottom: 50px;
 }
 
 .section2 .content {
   width: 300px;
   margin: auto;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
-  visibility: visible;
 }
 
 .section2 .content h3 {
@@ -147,18 +131,6 @@ h3 {
   color: #9fabb2;
   margin-bottom: 60px;
   text-align: center;
-}
-
-.hide {
-  visibility: hidden;
-}
-
-.section3 {
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
-  visibility: visible;
 }
 
 .section3 h2 {
@@ -177,14 +149,6 @@ h3 {
   display: block;
   margin: auto;
   width: 70%;
-}
-
-.section4 {
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
-  visibility: visible;
 }
 
 .section4 h2 {
@@ -380,13 +344,6 @@ footer .social-media .fa-instagram:hover {
   .buttons .mac:hover {
     background-color: #7383fc;
   }
-  .section2 .keep-Track {
-    -webkit-transition: all 1s ease;
-    transition: all 1s ease;
-    -webkit-transform: translateY(150px);
-            transform: translateY(150px);
-    visibility: inherit;
-  }
   .section2 h2 {
     margin-top: 50px;
     font-size: 30px;
@@ -402,10 +359,6 @@ footer .social-media .fa-instagram:hover {
   .section2 img {
     position: relative;
     right: 50px;
-    -webkit-transition: all 1s ease;
-    transition: all 1s ease;
-    -webkit-transform: translateX(-400px);
-            transform: translateX(-400px);
     width: auto;
     margin: 0;
   }
@@ -414,10 +367,6 @@ footer .social-media .fa-instagram:hover {
     margin: 0;
     margin-top: 70px;
     padding-left: 100px;
-    -webkit-transition: all 1s ease;
-    transition: all 1s ease;
-    -webkit-transform: translateX(400px);
-            transform: translateX(400px);
   }
   .section2 .content h3 {
     text-align: start;
@@ -426,15 +375,6 @@ footer .social-media .fa-instagram:hover {
     color: #9fabb2;
     margin-bottom: 60px;
     text-align: start;
-  }
-  .hide {
-    visibility: hidden;
-  }
-  .section3 {
-    -webkit-transition: all 1s ease;
-    transition: all 1s ease;
-    -webkit-transform: translateY(200px);
-            transform: translateY(200px);
   }
   .section3 h2 {
     margin-top: 100px;
@@ -450,12 +390,6 @@ footer .social-media .fa-instagram:hover {
     display: block;
     margin: auto;
     width: 70%;
-  }
-  .section4 {
-    -webkit-transition: all 1s ease;
-    transition: all 1s ease;
-    -webkit-transform: translateY(200px);
-            transform: translateY(200px);
   }
   .section4 h2 {
     margin-top: 50px;
